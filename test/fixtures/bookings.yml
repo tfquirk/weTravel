@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  activity: one
+  price: 1.5
+  tickets: 1
+  start_date: 2019-02-11 13:50:44
+  end_date: 2019-02-11 13:50:44
+
+two:
+  user: two
+  activity: two
+  price: 1.5
+  tickets: 1
+  start_date: 2019-02-11 13:50:44
+  end_date: 2019-02-11 13:50:44
