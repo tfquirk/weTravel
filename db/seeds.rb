@@ -1,10 +1,4 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
 
 # categories : Adventure Relaxation Outdoors Sightseeing Cultural Nightlife FoodandWine
 Country.create(name:"Thailand")
@@ -15,13 +9,12 @@ Country.create(name:"Costa Rica")
 Country.create(name:"Ecuador")
 Country.create(name:"Spain")
 
-<<<<<<< HEAD
 Activity.create(category:"Outdoors", company:"PortAdventures", city:"Portland", state:"ME",country:"USA", description:"Kayak down Portland's beautiful Casco Bay, either solo or in a double person ", price:25.99, name:"Kayaking", rating:4.5, positions_open: 15)
 Activity.create(category:"Relaxation", company:"TravelThai", city:"Chiang Mai", state: "Chiang Mai", country: "Thailand", description:"", price:35.00, name:"Authentic Thai Massage",rating:4.7, positions_open: 20)
 Activity.create(category:"Adventure", company:"CanyonExplorers", city:"Santa Fe", state:"NM", country:"USA", description:"Explore Arizona's beautiful canyons led by a master hiker", price:36.99 , name:"Canyon Hike", rating: 3.8, positions_open: 8 )
 Activity.create(category:"FoodandWine", company:"SipSmith", city:"London", state:"London", country:"UK", description:"Taste gin from the master gin makers at Sip Smith London", price:40.00, name:"Gin Tasting at SipSmith", rating:5.0, positions_open: 30)
 Activity.create(category:"Cultural", company:"LoveHanoi", city:"Hanoi", state:"Hanoi",country:"Vietnam", description:"Experience authentic vietnamese cuisine and culture by going on a walking tour around the city and grabbing some pho for lunch", price:15.99, name:"Pho and walking tour", rating:4.8, positions_open: 10)
-=======
+
 # country-ids:
 # "Thailand" -1
 # "Vietnam" -2
@@ -30,7 +23,6 @@ Activity.create(category:"Cultural", company:"LoveHanoi", city:"Hanoi", state:"H
 # "Costa Rica" -5
 # "Ecuador" -6
 # "Spain" -7
->>>>>>> dania
 
 # User.create(name:"Tim Quirk", email:"tq@gmail.com")
 # User.create(name:"Dania Herrera", email:"dh@gmail.com")
