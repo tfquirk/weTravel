@@ -10,9 +10,9 @@
 
 Activity.create(category:"Outdoors", company:"PortAdventures", city:"Portland", state:"ME",country:"USA", description:"Kayak down Portland's beautiful Casco Bay, either solo or in a double person ", price:25.99, name:"Kayaking", rating:4.5, positions_open: 15)
 Activity.create(category:"Relaxation", company:"TravelThai", city:"Chiang Mai", state: "Chiang Mai", country: "Thailand", description:"", price:35.00, name:"Authentic Thai Massage",rating:4.7, positions_open: 20)
-Activity.create(category:"Adventure", company:"CanyonExplorers", city:"Santa Fe", state:"NM", country:"USA", description:"", price:36.99 , name:"Canyon Hike", rating: 3.8, positions_open: 8 )
-Activity.create(category:"FoodandWine", company:"SipSmith", city:"London", state:"London", country:"UK", description:"", price:40.00, name:"Gin Tasting at SipSmith", rating:5.0, positions_open: 30)
-Activity.create(category:"Cultural", company:"LoveHanoi", city:"Hanoi", state:"Hanoi",country:"Vietnam", description:"", price:15.99, name:"Pho and walking tour", rating:4.8, positions_open: 10)
+Activity.create(category:"Adventure", company:"CanyonExplorers", city:"Santa Fe", state:"NM", country:"USA", description:"Explore Arizona's beautiful canyons led by a master hiker", price:36.99 , name:"Canyon Hike", rating: 3.8, positions_open: 8 )
+Activity.create(category:"FoodandWine", company:"SipSmith", city:"London", state:"London", country:"UK", description:"Taste gin from the master gin makers at Sip Smith London", price:40.00, name:"Gin Tasting at SipSmith", rating:5.0, positions_open: 30)
+Activity.create(category:"Cultural", company:"LoveHanoi", city:"Hanoi", state:"Hanoi",country:"Vietnam", description:"Experience authentic vietnamese cuisine and culture by going on a walking tour around the city and grabbing some pho for lunch", price:15.99, name:"Pho and walking tour", rating:4.8, positions_open: 10)
 
 User.create(name:"Tim Quirk", email:"tq@gmail.com")
 User.create(name:"Dania Herrera", email:"dh@gmail.com")
