@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2019_02_11_192849) do
     t.string "city"
     t.string "state"
     t.string "country"
-    t.string "decription"
+    t.string "description"
     t.float "price"
     t.string "name"
     t.float "rating"
