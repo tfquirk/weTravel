@@ -5,6 +5,7 @@ Rails.application.routes.draw do
      resources :users, only: [:index, :show, :update]
      resources :countries, only: [:index]
      resources :activities, only: [:index]
+     resources :bookings, only: [:index]
     end
   end
 
