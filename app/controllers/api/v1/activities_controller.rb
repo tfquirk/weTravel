@@ -6,12 +6,6 @@ class Api::V1::ActivitiesController < ApplicationController
     render json: @activities, status: :ok
   end
 
-  def show
-    @activity = Activity.find(params[:id])
-
-    render json: @activity, status: :ok
-  end
-
   def update
     @activity = Activity.find(params[:id])
     @activity.update(activity_params)
