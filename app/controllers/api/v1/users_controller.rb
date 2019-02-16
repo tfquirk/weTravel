@@ -1,5 +1,9 @@
 class Api::V1::UsersController < ApplicationController
 
+  # this route was built out with intention to add user functionality to the program
+  # in the end, this was not required because our instructions asked us not to used
+  # authentication in this project
+
   def index
     @users = User.all
 
