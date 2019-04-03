@@ -18,6 +18,14 @@ In this repository you will find the back end built on Ruby on Rails. This back 
 
 5. Now that you have your server running, you will need to make sure you access the repository for the front end of this application here: https://github.com/tfquirk/weTravel_frontend.
 
+## Demo
+
+[![alt text][image]][reference link]
+
+[image]: https://i.ytimg.com/vi/hyuwWChCl3M/1.jpg "weTravel Demo Video"
+[reference link]: https://youtu.be/hyuwWChCl3M
+
+Please click on the image above if you would like to see a video demo of the DocFinder.
 
 ## Overview  
 
