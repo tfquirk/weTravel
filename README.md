@@ -25,7 +25,7 @@ In this repository you will find the back end built on Ruby on Rails. This back 
 [image]: https://i.ytimg.com/vi/hyuwWChCl3M/1.jpg "weTravel Demo Video"
 [reference link]: https://youtu.be/hyuwWChCl3M
 
-Please click on the image above if you would like to see a video demo of the DocFinder.
+Please click on the image above if you would like to see a video demo of the weTravel.
 
 ## Overview  
 
